@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+
+<body>
+    <header>
+        <h1>Recipe Book</h1>
+        <div class="header-actions">
+            <button class="action-btn saves-btn" aria-label="My Saves">
+                <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                    </path>
+                </svg>
+                <span>MY SAVES</span>
+            </button>
+            <div class="divider"></div>
+            <button class="action-btn search-btn" aria-label="Search">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <ul id="recipe-list">
+            <li class="recipe-item">
+                <img src="https://spoonacular.com/recipeImages/12345-312x231.jpg" alt="Recipe 1">
+                <h2>Classic Pancakes</h2>
+                <p>
+                    <strong>Ingredients:</strong><br>
+                    1 1/2 cups all-purpose flour<br>
+                    3 1/2 tsp baking powder<br>
+                    1 tbsp sugar<br>
+                    1/2 tsp salt<br>
+                    1 1/4 cups milk<br>
+                    1 egg<br>
+                    3 tbsp melted butter
+                </p>
+                <a href="https://spoonacular.com/recipes/pancakes-12345" target="_blank">View Recipe</a>
+            </li>
+
+            <li class="recipe-item">
+                <img src="https://spoonacular.com/recipeImages/12445-312x231.jpg" alt="Recipe 2">
+                <h2>Spaghetti Aglio e Olio</h2>
+                <p>
+                    <strong>Ingredients:</strong><br>
+                    200 g spaghetti<br>
+                    4 cloves garlic, sliced<br>
+                    1/4 cup olive oil<br>
+                    1/2 tsp red chili flakes<br>
+                    Salt, to taste<br>
+                    Fresh parsley, chopped<br>
+                    Grated Parmesan (optional)
+                </p>
+                <a href="https://spoonacular.com/recipes/spaghetti-aglio-e-olio-12445" target="_blank">View Recipe</a>
+            </li>
+
+            <li class="recipe-item">
+                <img src="https://spoonacular.com/recipeImages/12335-312x231.jpg" alt="Recipe 3">
+                <h2>Veggie Stir-Fry</h2>
+                <p>
+                    <strong>Ingredients:</strong><br>
+                    1 tbsp vegetable oil<br>
+                    1 cup broccoli florets<br>
+                    1 carrot, sliced<br>
+                    1 bell pepper, sliced<br>
+                    1/2 cup snap peas<br>
+                    2 tbsp soy sauce<br>
+                    1 tsp sesame oil
+                </p>
+                <a href="https://spoonacular.com/recipes/veggie-stir-fry-12335" target="_blank">View Recipe</a>
+            </li>
+
+            <li class="recipe-item">
+                <img src="https://spoonacular.com/recipeImages/12945-312x231.jpg" alt="Recipe 4">
+                <h2>Margherita Pizza</h2>
+                <p>
+                    <strong>Ingredients:</strong><br>
+                    1 pizza base<br>
+                    1/2 cup tomato sauce<br>
+                    1 cup mozzarella, shredded<br>
+                    Fresh basil leaves<br>
+                    1 tbsp olive oil<br>
+                    Salt and pepper, to taste
+                </p>
+                <a href="https://spoonacular.com/recipes/margherita-pizza-12945" target="_blank">View Recipe</a>
+            </li>
+
+            <li class="recipe-item">
+                <img src="https://spoonacular.com/recipeImages/18885-312x231.jpg" alt="Recipe 5">
+                <h2>Chocolate Chip Cookies</h2>
+                <p>
+                    <strong>Ingredients:</strong><br>
+                    1 cup butter, softened<br>
+                    1 cup white sugar<br>
+                    1 cup brown sugar<br>
+                    2 eggs<br>
+                    2 tsp vanilla extract<br>
+                    3 cups all-purpose flour<br>
+                    1 tsp baking soda<br>
+                    2 cups chocolate chips
+                </p>
+                <a href="https://spoonacular.com/recipes/chocolate-chip-cookies-18885" target="_blank">View Recipe</a>
+            </li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
